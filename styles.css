@@ -5,14 +5,22 @@ body{
 
 .assignment{
     display: flex;
-    margin: 0cm;
-    padding:10px;column-gap: .5cm;
-    align-items: stretch;
+    margin: 10px;
+    padding:10px;
+    margin-bottom: 30px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(148, 139, 145);
+
 }
 
 .assignment img{
     width: 200px;
     padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border-radius:5px;
+
 }
 
 h1{
@@ -31,4 +39,8 @@ p{
 
 a{
     text-decoration: none;
+}
+
+.assignment a :hover {
+    color: rgb(105, 99, 105);
 }
